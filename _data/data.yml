@@ -3,83 +3,37 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
+    position: left # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    name: Owen Rumney
+    tagline: Software Engineer
+    avatar: owen.jpg  
+    email: owen@owenrumney.co.uk
+    phone: +447577 107 808
+    website: www.owenrumney.co.uk #do not add http://
+    github: owenrumney
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
-
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
 
 career-profile:
-    title: Career Profile
+    title: Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+            Interested in project work with defined value and deliverables.
+
+            Experienced software developer and platform engineer who fully understands that "works on my machine" isn't the end of the lifecycle.
+
+            A developer at heart but equally competent in DevOps tasks including Ansible automation, Jenkins for CI and general scripting. 
+            
+            Comfortable taking on the design of solutions from PoCs, to tactical and full strategic systems.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+      - degree: BSc Computing and IT
+        university: Open University
+        time: 2011 - 2015
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -89,176 +43,160 @@ education:
             - Bullet point
             - Bullet point
 experiences:
-    title: Experiences
+    title: Experience
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
       - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+        time: November 2022 - Present
+        company: Ghost Security, Remote
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Developing the next generation of API Security
+
+          Primary technologies;
+            - Go, Terraform, AWS, GCP
+
+      - role: Open-Source Software Engineer
+        time: July 2021 - November 2022
+        company: Aqua Security, Remote
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Developing new and existing open-source tooling for Aqua. This role required a wide set of skills to include engineering, community engagement, project promotion.
+
+          Primary technologies;
+            - Go, Terraform, Kubernetes, AWS
+
+      - role: Senior Software Engineer
+        time: October 2019 - July 2021
+        company: Form3, Remote
+        details: |
+          Initially joining the company in the Platform team ensuring the infrastructure was available and robust enough to support the UK Faster Payments backbone.
+
+          Moved into the Security Engineering team. The role was responsible for the technical implementation of the software security requirments mandated by both the CISO and regulatory bodies.
+
+          Primary technologies;
+            - Go, Terraform, AWS
+
+      - role: Freelance Software Engineer
+        time: January 2009 - October 2019
+        company: ORCON Services, Various sites
+        details: |
+          Contract software engineer working in roles for Insurance, Gas and Oil and Government.
+          Working on a wide variety of technologies from SharePoint and .NET to Kafka and HBase
+          
+          Companies worked for include;
+            - BP
+            - UK Home Office
+            - Comparethemarket
+            - Shell
+            - UBS
+            - Holland and Barrett
+
+          Primary technologies;
+          - AWS, Python, Java, C#, Scala, Kafka, HBase, Hadoop
+
+      - role: Everything else
+        time: May 1999 - January 2019
+   
+        details: |
+          More information about previous roles available on request
 
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh. 
-            Aenean fermentum, felis vulputate suscipit accumsan, 
-            sem enim bibendum augue, sed convallis arcu lacus at dui. 
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-            Praesent venenatis erat non augue suscipit consectetur. 
-            
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus 
-            fringilla vel. Ut euismod, sem sed vulputate venenatis, 
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at. 
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh. 
-            Aenean fermentum, felis vulputate suscipit accumsan, 
-            sem enim bibendum augue, sed convallis arcu lacus at dui. 
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-            Praesent venenatis erat non augue suscipit consectetur. 
+        - name: Certified Kubernetes
+          time: 2022 - 2025
+          organization: The Linux Foundation
+          credentialid: LF-wcu7g7b2tn
+          credentialurl: https://training.linuxfoundation.org/certification/verify/
+          credentialname: CKA
+ 
+        - name: Certified Security Specialist
+          time: 2020 - 2023
+          organization: Amazon Web Services
+          credentialid: J4G4FDJKPMR41BK4
+          credentialurl: http://aws.amazon.com/verification
+          credentialname: Certifies Security Specialist
+
         
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    title: Open Source Projects
 
-      - title: DevStudio
-        link: "#"
+    assignments:
+      - title: tfsec (Aquired by Aqua Security)
+        link: "https://tfsec.dev"
+        tagline: "Terraform static analysis tool to help developers defend against misconfigurations in their code."
+
+      - title: squealer
+        link: "https://github.com/owenrumney/squealer"
         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: go-sarif
+        link: "https://github.com/owenrumney/go-sarif"
+        tagline: "This Go library provides an abstraction to quickly generate reports in the SARIF security interchange format."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: spotiJ
+        links: "https://github.com/owenrumney/spotiJ"
+        tagline: "Spotify plugin for JetBrains IDEs. Show current track and control playback from inside the IDE."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: lazytrivy
+        link: "https://github.com/owenrumney/lazytrivy"
+        tagline: "A graphical terminal front end for the popular vulnerability scanner, Trivy."
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: gtail
+        link: "https://github.com/owenrumney/gtail"
+        tagline: "Tail logs from GCP Build, Logging, Cloud Run etc, without going to the Web Interface"
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    title: Presentations
+    intro: 
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Identifying Misconfigurations in your Terraform
+        link: "https://www.youtube.com/watch?v=cps1V5fOHtE"
+        authors: Owen Rumney
+        conference: Hashiconf Europe, 2022
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Using tfsec to scan your Terraform code
+        link: "https://www.youtube.com/watch?v=ZvqqkTzddrg"
+        authors: Owen Rumney
+        conference: Hashitalks Online, 2022
 
 skills:
     title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python & Django
+    tools:
+      - name: Go
+        from: 2018
+        till: 2023
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: AWS 
+        from: 2011
+        till: 2023
         level: 98%
 
-      - name: Angular
-        level: 98%
+      - name: Terraform 
+        from: 2015
+        till: 2023
+        level: 97%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: GCP 
+        from: 2022
+        till: 2023
+        level: 70%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Python 
+        from: 2011
+        till: 2023
+        level: 75%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Ansible 
+        from: 2015
+        till: 2019
+        level: 80%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: Java/Scala/Kotlin
+        from: 2013
+        till: 2019
+        level: 70%
+
+      - name: Typescript
+        level: 50%
+

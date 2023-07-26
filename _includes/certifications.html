@@ -1,4 +1,26 @@
-{% assign certifications = site.data.data.certifications %} {% if certifications %}
+{% assign certifications = site.data.data.certifications %} {% if certifications
+%} {% if site.data.data.sidebar.certifications %}
+<div class="education-container container-block">
+  <h2 class="container-block-title">{{ certifications.title }}</h2>
+
+  {% for certificate in certifications.list %}
+  <div class="item">
+    <h4 class="degree">{{ certificate.name }}</h4>
+    <h5 class="degree">{{ certificate.organization }} </h5>
+              <h5 class="meta">        <div class="cert-url">
+          <a
+            href="//{{ certificate.credentialurl }}"
+            target="_blank"
+            rel="noreferrer nofollow noopener"
+            >{{ certificate.credentialid }}</a
+          ></h5>
+                <div class="time">{{ certificate.time }}</div>
+  </div>
+  <!--//item-->
+  {% endfor %}
+</div>
+<!--//education-container-->
+{% else %}
 <section class="section certifications-section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
@@ -22,8 +44,7 @@
 
       <div class="second-upper-row">
         <div class="cert-org">
-          {{ certifications.organization }} {% if certifications.credentialid %}
-          ({{ certifications.credentialid }}) {% endif %}
+          {% if certifications.credentialid %}License: {{ certifications.credentialid }} {% endif %}
         </div>
         {% if certifications.credentialurl %}
         <div class="cert-url">
@@ -31,7 +52,7 @@
             href="//{{ certifications.credentialurl }}"
             target="_blank"
             rel="noreferrer nofollow noopener"
-            >{{ certifications.credentialname }}</a
+            >{{ certifications.organization }}</a
           >
         </div>
         {% endif %}
@@ -45,4 +66,4 @@
   {% endfor %}
 </section>
 <!--//section-->
-{% endif %}
+{% endif %} {% endif %}
